@@ -1,6 +1,6 @@
 [package]
 name = "user_info_middleware"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Nebeto <contact@nebeto.xyz>"]
 edition = "2024"
 description = "Custom extractor for Rust Axum to extract the version from an HTTP header X-Endpoint-API-UserInfo."
