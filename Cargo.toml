@@ -7,7 +7,7 @@ description = "Custom extractor for Rust Axum to extract the version from an HTT
 readme = "README.md"
 repository = "https://github.com/nebetoxyz/rust-user-info-middleware--lib"
 license-file = "LICENSE.md"
-keywords = ["middleware", "header", "X-Endpoint-API-UserInfo"]
+keywords = ["middleware", "header"]
 categories = ["web-programming"]
 exclude = [".github/", ".vscode/", ".gitignore"]
 

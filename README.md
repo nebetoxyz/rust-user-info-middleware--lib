@@ -32,7 +32,7 @@ curl -H "x-endpoint-api-userinfo: eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZW
 curl -H "X-endPoint-Api-UserInfo: eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZWN0IiwiYXVkIjoibXktYXVkaWVuY2UiLCJuYW1lIjoibXktbmFtZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJuYmYiOjE1MTYyMzkwMjIsImp0aSI6Im15LXVuaXF1ZS1pZCJ9" http://api.nebeto.xyz/foo
 ```
 
-Where `eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZWN0IiwiYXVkIjoibXktYXVkaWVuY2UiLCJuYW1lIjoibXktbmFtZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJuYmYiOjE1MTYyMzkwMjIsImp0aSI6Im15LXVuaXF1ZS1pZCJ9` is a JSON base64 encoded :
+Where `eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZWN0IiwiYXVkIjoibXktYXVkaWVuY2UiLCJuYW1lIjoibXktbmFtZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJuYmYiOjE1MTYyMzkwMjIsImp0aSI6Im15LXVuaXF1ZS1pZCJ9` is a base 64 encoded JSON :
 
 ```json
 {
@@ -47,7 +47,7 @@ Where `eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZWN0IiwiYXVkIjoibXktYXVkaWVuY
 }
 ```
 
-Will give in the `user_info` :
+Will give :
 
 ```rust
 user_info["iss"] // "my-issuer"
