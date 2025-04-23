@@ -24,7 +24,7 @@ If the extracted value is **missing** or is not a valid **base 64 encoded JSON**
 
 ## Samples
 
-## Extract user info
+### Extract user info
 
 ```shell
 curl -H "X-Endpoint-API-UserInfo: eyJpc3MiOiJteS1pc3N1ZXIiLCJzdWIiOiJteS1zdWJqZWN0IiwiYXVkIjoibXktYXVkaWVuY2UiLCJuYW1lIjoibXktbmFtZSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJuYmYiOjE1MTYyMzkwMjIsImp0aSI6Im15LXVuaXF1ZS1pZCJ9" http://api.nebeto.xyz/foo
