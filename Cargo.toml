@@ -1,13 +1,13 @@
 [package]
-name = "[TODO_LIB_PACKAGE_NAME]"
+name = "user_info_middleware"
 version = "0.1.0"
 authors = ["Nebeto <contact@nebeto.xyz>"]
 edition = "2024"
-description = "[TODO_LIB_DESCRIPTION]"
+description = "Custom extractor for Rust Axum to extract the version from an HTTP header X-Endpoint-API-UserInfo."
 readme = "README.md"
-repository = "https://github.com/nebetoxyz/[TODO_ACTION_REPOSITORY_ID]"
+repository = "https://github.com/nebetoxyz/rust-user-info-middleware--lib"
 license-file = "LICENSE.md"
-keywords = []
+keywords = ["middleware", "header", "X-Endpoint-API-UserInfo"]
 categories = ["web-programming"]
 exclude = [".github/", ".vscode/", ".gitignore"]
 
@@ -18,3 +18,10 @@ doctest = true
 bench = false
 doc = true
 crate-type = ["lib"]
+
+[dependencies]
+axum = "0.8.3"
+base64 = "0.22.1"
+log = "0.4.27"
+serde_json = "1.0.140"
+tokio = "1.44.2"
